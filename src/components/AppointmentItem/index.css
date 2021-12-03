@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.appoint-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 30%;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #b5b7c4;
+  border-width: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+@media screen and (max-width: 576px) {
+  .appoint-container {
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+.title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+  width: 100%;
+}
+.appointment-title-style {
+  font-weight: bold;
+  color: #171f46;
+}
+.date-style {
+  color: #b5b7c4;
+  margin-top: 0px;
+}
+.star-button-style {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
